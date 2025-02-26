@@ -7,7 +7,7 @@ import { createToken, verifyToken } from './auth.utils';
 import config from '../../config';
 import mongoose from 'mongoose';
 import { JwtPayload, Secret } from 'jsonwebtoken';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { generateOtp } from '../../utils/generateOtp';
 import { EmailHelper } from '../../utils/emailHelper';

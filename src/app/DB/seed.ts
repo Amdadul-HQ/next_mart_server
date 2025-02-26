@@ -1,4 +1,4 @@
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import config from '../config';
 import { UserRole } from '../modules/user/user.interface';
 import User from '../modules/user/user.model';
